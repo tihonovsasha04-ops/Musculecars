@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muscle Cars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__logo">
+            <img src="image/logo.png" alt="Muscle cars logo" width="90" height="90">
+            <h2 class="header__title">MuscleCars</h2>
+        </div>
+
+        <a href="#menu" class="burger">
+            <img src="image/Icon-Burger-menu-1.png" alt="Burger menu" width="32" height="32">
+        </a>
+
+        <nav class="nav" id="menu">
+            <div class="nav__top">
+                <img src="image/logo.png" alt="Logo" class="nav__logo" width="50" height="50">
+                <a href="#" class="close-btn">
+                    <img src="image/Icon-Close-1.png" alt="Close-menu" width="30" height="30">
+                </a>
+            </div>
+            <ul class="nav__links">
+                <li><a href="#hero">Головна</a></li>
+                <li><a href="#about">Про Muscle Cars</a></li>
+                <li><a href="#models">Моделі</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero" id="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">Легенди американських<br>Muscle Cars</h1>
+                <p class="hero__text">Сила, звук і характер — знайомтеся з культовими автомобілями, які стали<br>символом швидкості та свободи.</p>
+
+                <div class="hero__buttons">
+                    <a href="#contact" class="btn btn--red">Зв’язатися з нами</a>
+                    <a href="#about" class="btn btn--grey">Дізнатися історію</a>
+                </div>
+            </div>
+
+            <div class="hero__model model-card">
+                <h3 class="model-card__title">Модель дня</h3>
+                <div class="slider">
+                    <div class="slide active">
+                        <p class="model-card__desc">Ford Mustang GT Fastback — класика, що ніколи не старіє</p>
+                        <img src="image/Ford-Mustang-GT-Fastback-1.png" alt="Ford Mustang GT Fastback" width="500" height="327">
+                    </div>
+
+                    <div class="slide">
+                        <p class="model-card__desc">Dodge Charger — легенда, створена для дороги.</p>
+                        <img src="image/Dodge-Charger.jpg" alt="Ford Mustang 1965" width="500" height="327">
+                    </div>
+
+                    <div class="slide">
+                        <p class="model-card__desc">Chevrolet Camaro — енергія, яку відчуваєш кожною клітиною.</p>
+                        <img src="image/Chevrolet-Camaro.jpg" alt="Ford Mustang Shelby GT500" width="500" height="327">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="about__title">Що таке Muscle Car?</h2>
+            <p class="about__text">Muscle car — це потужний автомобіль, найчастіше американського виробництва, з великим V8 двигуном та агресивним дизайном.<br>Вони стали іконою 60–70-х років</p>
+            
+            <div class="about__cards">
+                <div class="about__card">
+                    <h3>Потужність</h3>
+                    <p>V8 двигун, який видає сотні<br>кінських сил і реве, як справжній<br>звір.</p>
+                </div>
+                <div class="about__card">
+                    <h3>Швидкість</h3>
+                    <p>Прискорення, яке вдавлює в<br>сидіння та змушує серце битися<br>швидше.</p>
+                </div>
+                <div class="about__card">
+                    <h3>Стиль</h3>
+                    <p>Агресивний дизайн, що одразу<br>впізнається на дорозі.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="contact__title">Контакти</h2>
+            <form class="contact__form">
+                <input type="text" placeholder="Ім’я" class="contact__input">
+                <input type="email" placeholder="Email" class="contact__input">
+                <textarea placeholder="Ваш улюблений маслкар" class="contact__textarea"></textarea>
+                <button type="submit" class="contact__button">Надіслати</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__logo">
+                <img src="image/logo.png" alt="Muscle cars logo footer" width="100" height="100">
+            </div>
+
+            <div class="footer__info">
+                <p>Хочеш дізнатися більше про muscle cars? Напиши нам:<br>tihonov.sasha04@gmail.com</p>
+            </div>
+
+            <div class="footer__media">
+                <p class="media__text">Instagram / YouTube / Telegram</p>
+                <div class="socials">
+                    <a href=""><img src="image/instagram.png" alt="Instagram"></a>
+                    <a href=""><img src="image/YouTube.png" alt="YouTube"></a>
+                    <a href=""><img src="image/telegram.png" alt="Telegram"></a>
+                </div>
+            </div>
+        </div>
+
+        <p class="copyright">© MuscleCars — 2025. Усі права захищені. </p>     
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
